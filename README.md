@@ -1,6 +1,7 @@
 # ⚡ Flutter to React — Interactive Mastery Blueprint
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-fluttertoreact.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://fluttertoreact.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Magesh_Kanna-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mageshkanna/)
 [![React](https://img.shields.io/badge/React-19.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
@@ -206,5 +207,6 @@ Contributions, feedback, and additional Flutter-to-React concept mappings are we
 ## 👤 Author
 
 **Magesh K**  
+- LinkedIn: [linkedin.com/in/mageshkanna](https://www.linkedin.com/in/mageshkanna/)  
 - GitHub: [@Magesh-kanna](https://github.com/Magesh-kanna)  
 - Live App: [fluttertoreact.vercel.app](https://fluttertoreact.vercel.app)
