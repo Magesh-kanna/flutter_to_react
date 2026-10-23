@@ -76,14 +76,17 @@ function MainLayout() {
       <header className="app-header">
         <div className="header-container">
           <div className="brand-group">
-            <div className="logos-bridge">
-              <span className="flutter-logo-badge">Flutter</span>
-              <span className="bridge-icon">&rarr;</span>
-              <span className="react-logo-badge">React 19</span>
-            </div>
+            <img src="/logo.png" alt="Flutter to React Logo" className="app-brand-logo" />
             <div>
-              <h1 className="main-title">ReactJS for Flutter Engineers</h1>
-              <p className="subtitle">Single Page App &bull; Clean Light Mode &bull; Production Concepts</p>
+              <div className="brand-title-row">
+                <h1 className="main-title">Flutter to React</h1>
+                <div className="logos-bridge">
+                  <span className="flutter-logo-badge">Flutter</span>
+                  <span className="bridge-icon">&rarr;</span>
+                  <span className="react-logo-badge">React 19</span>
+                </div>
+              </div>
+              <p className="subtitle">Interactive Mastery Guide for Flutter Engineers &bull; 90-Day Transition</p>
             </div>
           </div>
 

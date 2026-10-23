@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.png" alt="Flutter to React Logo" width="128" height="128" style="border-radius: 28px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+</p>
+
 # ⚡ Flutter to React — Interactive Mastery Blueprint
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-fluttertoreact.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://fluttertoreact.vercel.app)

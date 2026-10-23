@@ -107,8 +107,15 @@ export default function LifecycleDemo() {
    * Flutter equivalent: `didUpdateWidget` or running code whenever a specific variable changes
    */
   useEffect(() => {
-    // Updates browser tab title whenever `docTitleCount` changes
-    document.title = `Clicked ${docTitleCount}x | React Learnings`;
+    // Only update browser tab title when user clicks the demo button (docTitleCount > 0)
+    if (docTitleCount > 0) {
+      document.title = `(${docTitleCount}) Clicked Demo | Flutter to React`;
+    } else {
+      document.title = 'Flutter to React | Interactive Mastery Guide';
+    }
+    return () => {
+      document.title = 'Flutter to React | Interactive Mastery Guide';
+    };
   }, [docTitleCount]); // Only re-runs when docTitleCount changes
 
   return (
