@@ -1,0 +1,105 @@
+/*
+ * ============================================================================
+ * FLUTTER EQUIVALENT: ThemeData.light() / Light AppTheme
+ * ============================================================================
+ * Clean, solid, high-contrast LIGHT MODE ONLY design system.
+ * Zero gradients: pure solid colors, crisp borders, and clean typography.
+ */
+
+:root {
+  /* Surface & Background (Light Mode) */
+  --bg-app: #f8fafc;        /* Slate 50: clean canvas */
+  --bg-card: #ffffff;       /* Pure white card surface */
+  --bg-subtle: #f1f5f9;     /* Slate 100: interactive containers */
+  --bg-hover: #e2e8f0;      /* Slate 200: hover states */
+
+  /* Borders & Dividers */
+  --border-light: #e2e8f0;  /* Slate 200 */
+  --border-medium: #cbd5e1; /* Slate 300 */
+  --border-focus: #2563eb;  /* Blue 600 */
+
+  /* Text & Typography (High contrast readability) */
+  --text-primary: #0f172a;   /* Slate 900 */
+  --text-secondary: #334155; /* Slate 700 */
+  --text-muted: #64748b;     /* Slate 500 */
+
+  /* Brand Accents (Solid Colors - No Gradients) */
+  --accent-blue: #02569b;    /* Flutter Classic Blue */
+  --accent-primary: #2563eb; /* Primary Web Blue */
+  --accent-primary-hover: #1d4ed8;
+  --accent-indigo: #4f46e5;
+  --accent-cyan: #0284c7;    /* React Sky Blue */
+  --accent-emerald: #059669; /* Success Green */
+  --accent-amber: #d97706;   /* Warning Amber */
+  --accent-rose: #dc2626;    /* Error Red */
+  --accent-purple: #7c3aed;  /* Purple */
+
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* Shadows (Clean solid elevation like Material Elevation 1 & 2) */
+  --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+/* Reset & Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Interactive Base Elements */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+input, textarea, select {
+  font-family: inherit;
+  color: var(--text-primary);
+  outline: none;
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+/* Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-medium);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
